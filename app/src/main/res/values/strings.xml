@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Uda Cafe</string>
+    <string name="uda_café">Uda Café</string>
+    <string name="find_us">Find us :</string>
+    <string name="phone">2101234567</string>
+    <string name="location">2th Street, 10441</string>
+    <string name="website">www.udacafé.com</string>
+    <string name="services">Services :</string>
+</resources>

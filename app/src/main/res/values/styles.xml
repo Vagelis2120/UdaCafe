@@ -1,0 +1,146 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ScrollView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:background">@drawable/background</item>
+    </style>
+
+    <style name="ParentLinear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="UdaCaféTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/ZeroHeightItems</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/UdaCaféPaddingTop</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/UdaCaféTextSize</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="InfoAndImageLinear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ZeroHeightItems</item>
+        <item name="android:layout_weight">5</item>
+        <item name="android:layout_marginBottom">@dimen/InfoAndImageLinearMarginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/InfoAndImageLinearMarginLeft</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="CoffeeImage">
+        <item name="android:layout_width">@dimen/ZeroHeightItems</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:src">@drawable/coffee</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:paddingTop">@dimen/CoffeeImagePaddingTop</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="LineView">
+        <item name="android:layout_width">4dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/LineViewMarginLeft</item>
+        <item name="android:background">@color/lineColor</item>
+    </style>
+
+    <style name="InfoLinear">
+        <item name="android:layout_width">@dimen/ZeroWidthItems</item>
+        <item name="android:layout_height">350dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">@dimen/InfoLinearMarginLeft</item>
+        <item name="android:layout_marginTop">@dimen/InfoLinearMarginTop</item>
+    </style>
+
+    <style name="FindUsTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/FindUsTextSize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">italic|bold</item>
+    </style>
+
+    <style name="PhoneTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/InfoTextSizes</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginTop">@dimen/PhoneMarginTop</item>
+        <item name="android:drawableLeft">@drawable/call</item>
+        <item name="android:drawablePadding">@dimen/PhoneDrawablePadding</item>
+    </style>
+
+    <style name="LocationTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/InfoTextSizes</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:drawableLeft">@drawable/place</item>
+        <item name="android:drawablePadding">@dimen/LocationDrawablePadding</item>
+        <item name="android:layout_marginTop">@dimen/LocationMarginTop</item>
+    </style>
+
+    <style name="WebsiteTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/InfoTextSizes</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:drawableLeft">@drawable/website</item>
+        <item name="android:drawablePadding">@dimen/WebsiteDrawablePadding</item>
+        <item name="android:layout_marginTop">@dimen/WebsiteMarginTop</item>
+    </style>
+
+    <style name="ServicesTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/ServicesTextSize</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_marginTop">@dimen/ServicesMarginTop</item>
+    </style>
+
+    <style name="ServicesIconsLinear">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">@dimen/ServicesIconsLinearMarginTop</item>
+    </style>
+
+    <style name="ServiceCoffeeImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/cup</item>
+        <item name="android:paddingRight">@dimen/ServiceCoffeeImagePaddingRight</item>
+    </style>
+
+    <style name="ServiceFoodImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/food</item>
+        <item name="android:paddingRight">@dimen/ServiceFoodImagePaddingRight</item>
+    </style>
+
+    <style name="ServiceWifiimage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/wifi</item>
+    </style>
+
+</resources>

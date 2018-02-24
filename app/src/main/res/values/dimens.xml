@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ZeroHeightItems">0dp</dimen>
+    <dimen name="ZeroWidthItems">0dp</dimen>
+    <dimen name="UdaCaféPaddingTop">40dp</dimen>
+    <dimen name="UdaCaféTextSize">80dp</dimen>
+    <dimen name="InfoAndImageLinearMarginBottom">14dp</dimen>
+    <dimen name="InfoAndImageLinearMarginLeft">8dp</dimen>
+    <dimen name="CoffeeImagePaddingTop">26dp</dimen>
+    <dimen name="LineViewMarginLeft">16dp</dimen>
+    <dimen name="InfoLinearMarginLeft">16dp</dimen>
+    <dimen name="InfoLinearMarginTop">8dp</dimen>
+    <dimen name="FindUsTextSize">40sp</dimen>
+    <dimen name="InfoTextSizes">22sp</dimen>
+    <dimen name="PhoneMarginTop">12dp</dimen>
+    <dimen name="PhoneDrawablePadding">8dp</dimen>
+    <dimen name="LocationDrawablePadding">6dp</dimen>
+    <dimen name="LocationMarginTop">12dp</dimen>
+    <dimen name="WebsiteDrawablePadding">6dp</dimen>
+    <dimen name="WebsiteMarginTop">12dp</dimen>
+    <dimen name="ServicesTextSize">34sp</dimen>
+    <dimen name="ServicesMarginTop">36dp</dimen>
+    <dimen name="ServicesIconsLinearMarginTop">12dp</dimen>
+    <dimen name="ServiceCoffeeImagePaddingRight">8dp</dimen>
+    <dimen name="ServiceFoodImagePaddingRight">12dp</dimen>
+</resources>

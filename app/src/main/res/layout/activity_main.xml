@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScrollView"
+    tools:context="com.example.android.udacafe.MainActivity">
+
+    <LinearLayout style="@style/ParentLinear">
+
+        <TextView
+            style="@style/UdaCaféTextView"
+            android:text="@string/uda_café" />
+
+
+        <LinearLayout style="@style/InfoAndImageLinear">
+
+            <ImageView style="@style/CoffeeImage" />
+
+            <View style="@style/LineView" />
+
+            <LinearLayout style="@style/InfoLinear">
+
+                <TextView
+                    style="@style/FindUsTextView"
+                    android:text="@string/find_us" />
+
+                <TextView
+                    style="@style/PhoneTextView"
+                    android:text="@string/phone" />
+
+                <TextView
+                    style="@style/LocationTextView"
+                    android:text="@string/location" />
+
+                <TextView
+                    style="@style/WebsiteTextView"
+                    android:text="@string/website" />
+
+                <TextView
+                    style="@style/ServicesTextView"
+                    android:text="@string/services" />
+
+                <LinearLayout style="@style/ServicesIconsLinear">
+
+                    <ImageView style="@style/ServiceCoffeeImage" />
+
+                    <ImageView style="@style/ServiceFoodImage" />
+
+                    <ImageView style="@style/ServiceWifiimage" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
